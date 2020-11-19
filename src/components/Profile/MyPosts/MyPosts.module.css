@@ -1,0 +1,44 @@
+
+
+.posts {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+
+h2 {
+    margin-left: 30px;
+}
+
+.myposts textarea {
+    width: 90%;
+    height: 100px;
+    background-color: #F1DDD5;
+    border: 3px solid rgba(149,125,149, 0.8);
+    box-shadow: 1px 1px 1px 1px #bbb;
+    border-radius: 10px;
+    outline: none
+}
+
+.myposts button {
+    background-color: #e49ab0;
+    display: block;
+    width: 100px;
+    height: 30px;
+    border-color: rgba(149,125,149, 0.3);
+    box-shadow: 1px 1px 1px 1px #bbb;
+    border-radius: 15px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 100px;
+    outline: none;
+    font-size: 18px;
+}
+
+.newposts {
+    margin: 30px;
+}
+
+.newposts__h2 {
+    margin-top: 50px;
+}

@@ -1,41 +1,23 @@
 * {
     font-family: 'Gabriela', serif;
+    color: #48263b;
 }
 
 .app-wrapper {
     width: 1280px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 60px 1fr;
+    grid-template-rows: 80px 1fr;
     grid-template-columns: 2fr 10fr;
-    grid-gap: 10px;
+    grid-gap: 5px;
     grid-template-areas:
           "h h"
           "n c";
 }
 
-.header {
-    grid-area: h;
-    background-color: #e49ab0;
-}
 
-.logo {
-    height: 60px;
-}
 
-.nav {
-    grid-area: n;
-    background-color: #e49ab0;
-}
 
-.content {
-    grid-area: c;
-    background-color: #eccfc3;
-}
-
-.main-img {
-    width: 100%;
-}
 
 /* project colors
 #904c77 - sugar plum
