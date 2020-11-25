@@ -7,7 +7,7 @@
     width: 1280px;
     margin: 0 auto;
     display: grid;
-    grid-template-rows: 80px 1fr;
+    grid-template-rows: 60px 1fr;
     grid-template-columns: 2fr 10fr;
     grid-gap: 5px;
     grid-template-areas:
@@ -15,9 +15,25 @@
           "n c";
 }
 
+.app-wrapper-content {
+    grid-area: c;
+    background-color: #eccfc3;
+    box-shadow: 2px 4px 2px rgba(144, 76, 119, 0.6);
+}
 
-
-
+.message {
+    margin-left: 20px;
+    margin-bottom: 15px;
+    border: 2px solid #e49ab0;
+    width: 80%;
+    min-height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #efd8cf;
+    box-shadow: 1px 1px 1px 1px #bbb;
+    word-break: break-all;
+    overflow: hidden;
+}
 
 /* project colors
 #904c77 - sugar plum

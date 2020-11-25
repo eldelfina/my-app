@@ -6,7 +6,7 @@
 .avatar {
     height: 50px;
     width: 50px;
-    margin: 20px 0px;
+    margin: 20px 0;
     border-radius: 50%;
     background-color: rgba(149,125,149, 0.8);
     overflow: hidden;
@@ -19,13 +19,28 @@
     width: 50px;
 }
 
-.post {
-    margin-left: 20px;
-    border: 2px solid #e49ab0;
-    width: 80%;
-    min-height: 30px;
-    border-radius: 5px;
-    padding: 10px;
-    background-color: #efd8cf;
-    box-shadow: 1px 1px 1px 1px #bbb;
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.icon {
+    width: 20px;
+    display: block;
+    margin-right: 10px;
+}
+
+.icon:hover {
+    opacity: 70%;
+}
+
+.count {
+  color: #353746;
+}
+
+.count span {
+    display: block;
+    margin-top: 5px;
 }
