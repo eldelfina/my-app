@@ -5,7 +5,7 @@ const Post = (props) => {
     return (
         <div>
         <div className={s.row}>
-            <div className={s.avatar}>
+            <div className={'avatar' + ' ' + s.bigavatar}>
                 <img
                     src="https://images.pexels.com/photos/1580270/pexels-photo-1580270.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="mini-avatar"/>
             </div>

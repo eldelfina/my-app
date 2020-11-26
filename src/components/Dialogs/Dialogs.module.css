@@ -24,11 +24,6 @@ h2 {
     overflow: scroll;
 }
 
-.dialog {
-    display: flex;
-    align-items: center;
-}
-
 .row {
     margin-left: 20px;
     width: 80%;
@@ -60,22 +55,6 @@ h2 {
     margin: 30px;
 }
 
-.avatar {
-    height: 50px;
-    width: 50px;
-    margin: 10px;
-    border-radius: 50%;
-    background-color: rgba(149, 125, 149, 0.8);
-    overflow: hidden;
-    box-shadow: 1px 1px 1px 1px #bbb;
-    border: 1px solid rgba(149, 125, 149, 0.2);
-}
-
-.avatar img {
-    display: block;
-    width: 50px;
-}
-
 .bigavatar {
     height: 70px;
     width: 70px;
@@ -84,11 +63,5 @@ h2 {
 .bigavatar img {
     display: block;
     width: 70px;
-}
-
-.sender {
-    display: block;
-    margin-left: 20px;
-    margin-bottom: 5px;
 }
 

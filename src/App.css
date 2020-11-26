@@ -22,8 +22,7 @@
 }
 
 .message {
-    margin-left: 20px;
-    margin-bottom: 15px;
+    margin: 7px 0 7px 20px;
     border: 2px solid #e49ab0;
     width: 80%;
     min-height: 30px;
@@ -34,6 +33,23 @@
     word-break: break-all;
     overflow: hidden;
 }
+
+.avatar {
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: rgba(149, 125, 149, 0.8);
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px #bbb;
+    border: 1px solid rgba(149, 125, 149, 0.2);
+}
+
+.avatar img {
+    display: block;
+    width: 50px;
+}
+
 
 /* project colors
 #904c77 - sugar plum

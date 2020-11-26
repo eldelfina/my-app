@@ -3,21 +3,6 @@
     align-items: center;
 }
 
-.avatar {
-    height: 50px;
-    width: 50px;
-    margin: 20px 0;
-    border-radius: 50%;
-    background-color: rgba(149,125,149, 0.8);
-    overflow: hidden;
-    box-shadow: 1px 1px 1px 1px #bbb;
-    border: 1px solid rgba(149,125,149, 0.2);
-}
-
-.avatar img {
-    display: block;
-    width: 50px;
-}
 
 hr {
     border: 0;
@@ -43,4 +28,13 @@ hr {
 .count span {
     display: block;
     margin-top: 5px;
+}
+
+.bigavatar {
+    width: 70px;
+    height: 70px;
+}
+
+.bigavatar img {
+    width: 70px;
 }
