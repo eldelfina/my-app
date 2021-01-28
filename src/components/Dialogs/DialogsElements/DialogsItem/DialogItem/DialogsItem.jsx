@@ -2,9 +2,7 @@ import React from 'react';
 import s from './DialogsItem.module.css';
 import {NavLink} from "react-router-dom";
 
-
-
-const DialogItem = (props) => {
+const DialogsItem = (props) => {
     const path = '/dialogs/' + props.id;
 
     return (<div className={s.dialog}>
@@ -15,7 +13,4 @@ const DialogItem = (props) => {
     </div>)
 }
 
-
-let dialogsElements = dialogsData.map(d => <DialogItem name={d.name} id={d.id}/>);
-
-export default dialogsElements;
+export default DialogsItem;

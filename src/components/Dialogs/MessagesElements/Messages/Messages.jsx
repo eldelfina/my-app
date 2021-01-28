@@ -1,6 +1,6 @@
 import React from 'react';
 import s from './Messages.module.css';
-import data from "../../../index";
+
 
 
 const Message = (props) => {
@@ -10,7 +10,4 @@ const Message = (props) => {
     </div>)
 }
 
-let messagesElements = messagesData.map(m => <Message sender={m.sender} message={m.message}/>);
-
-
-export default messagesElements;
+export default Message;

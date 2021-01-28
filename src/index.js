@@ -4,31 +4,23 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
-
-let dialogsData = [
-    {name: 'Brad Pitt', id: '1'},
-    {name: 'Margo Robbie', id: '2'},
-    {name: 'Johnny Depp', id: '3'},
-    {name: 'Keanu Reeves', id: '4'},
-    {name: 'Jennifer Aniston', id: '5'},
-    {name: 'Rachel Green', id: '6'},
-    {name: 'Monica Geller', id: '7'},
-]
-
-let messagesData = [
-    {sender: 'Brad Pitt', message: 'Hello, how are you?'},
-    {sender: 'Kim', message: "I'm fine, thanks! What about you? I hear you’ve been ill."},
-    {sender: 'Brad Pitt', message: "Well, I had the flu for a couple of weeks, but I’m fine now."},
-    {sender: 'Kim', message: "You’re looking well. By the way, did you hear about Mrs. Jackson?"},
-    {sender: 'Brad Pitt', message: 'No, What about her?'},
-    {sender: 'Kim', message: 'She had such a bad case of the flu that they had to take her to the hospital.'},
-    {sender: 'Brad Pitt', message: 'Oh, I’m sorry to hear that!'},
-]
+let postsData = [
+  { post: "Hello, I'm fine. Happy to be here", count: 15 },
+  {
+    post: "WOW I've just bought beautiful seeds for my garden! Fantastic!",
+    count: 5,
+  },
+  {
+    post:
+      "My favourite flower is peony. They are soooo neat, soft and gentle. And what about you? Which flower is your favourite?",
+    count: 9,
+  },
+];
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <App dialogsData={dialogsData} messagesData={messagesData}/>
+    <App postsData={postsData}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
